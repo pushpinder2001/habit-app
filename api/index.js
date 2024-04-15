@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 mongoose
-  .connect("mongodb+srv://pushpinder:pushpinder@cluster0.waqnglr.mongodb.net/")
+  .connect("Mongodb Connect with Vs code Uri")
   .then(() => {
     console.log("Connected to MongoDB");
   })
